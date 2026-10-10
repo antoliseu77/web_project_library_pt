@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -47,6 +48,10 @@
   justify-content: space-between;
 }
 
+.header__text {
+  max-width: 635px;
+}
+
 .header__title {
   max-width: 635px;
   margin: 128px 0 0;
@@ -79,8 +84,6 @@
   margin: 0;
   color: #838383;
 }
-
-/* Escolhas da equipa */
 
 .staff {
   padding: 100px 0 140px;
@@ -155,8 +158,6 @@
   color: #838383;
 }
 
-/* Eventos */
-
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -188,14 +189,14 @@
   margin-top: 32px;
 }
 
-.event-info__item {
+.events__info-item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
 
-.event-info__icon {
+.events__info-icon {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
@@ -203,7 +204,7 @@
   height: 24px;
 }
 
-.event-info__text {
+.events__info-text {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -287,8 +288,6 @@
   margin: 0;
 }
 
-/* Seja um membro */
-
 .membership {
   padding: 100px 0 140px;
   background-color: #1f1f1f;
@@ -340,14 +339,12 @@
   line-height: 20px;
 }
 
-.step__image {
+.step__icon {
   width: 100px;
   height: 100px;
   margin-top: auto;
   object-fit: contain;
 }
-
-/* Rodapé */
 
 .footer {
   background-color: #1f1f1f;
@@ -363,6 +360,21 @@
 }
 
 .footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
