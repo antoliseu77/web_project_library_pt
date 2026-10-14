@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -26,6 +27,7 @@
 .nav__logo {
   width: 105px;
   height: 39px;
+  object-fit: contain;
 }
 
 .nav__links {
@@ -157,6 +159,8 @@
   color: #838383;
 }
 
+/* Eventos */
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -167,7 +171,8 @@
 }
 
 .events__content {
-  flex-basis: 580px;
+  flex: 0 1 580px;
+  max-width: 580px;
 }
 
 .events__heading {
@@ -188,27 +193,25 @@
   margin-top: 32px;
 }
 
-/* Informações do evento */
-.event-info__item {
+.events__info-item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
-  font-weight: 500;
 }
 
-.event-info__icon {
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 12px;
+.events__info-icon {
+  flex-shrink: 0;
   width: 24px;
   height: 24px;
+  margin-right: 12px;
+  object-fit: contain;
 }
 
-.event-info__text {
+.events__info-text {
+  margin: 0;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  margin: 0;
 }
 
 .events__description {
@@ -244,16 +247,19 @@
 .person_name_feynman {
   top: -30px;
   left: 319px;
+  flex-direction: column-reverse;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
+  flex-direction: column-reverse;
 }
 
 .person_name_burbidge {
   top: 96px;
   right: 125px;
+  flex-direction: column-reverse;
 }
 
 .person_name_mitchell {
@@ -288,9 +294,11 @@
   margin: 0;
 }
 
+/* Seja um membro */
+
 .membership {
   padding: 100px 0 140px;
-  background-color: #1f1f1f;
+  background-color: #057bf2;
   color: #ffffff;
 }
 
@@ -316,6 +324,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -346,6 +355,8 @@
   object-fit: contain;
 }
 
+/* Rodapé */
+
 .footer {
   background-color: #1f1f1f;
   color: #ffffff;
@@ -356,6 +367,7 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   min-height: 200px;
 }
 
@@ -369,27 +381,22 @@
   flex-direction: column;
 }
 
-.footer__column_content_hours {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
 
-.footer__logo {
-  width: 105px;
-  height: 39px;
-  object-fit: contain;
-  object-position: left top;
+.footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
 }
 
-.footer__copyright {
-  margin: auto 0 0;
-  font-size: 16px;
-  line-height: 20px;
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  object-fit: contain;
+  object-position: left top;
 }
 
 .footer__column-heading {
@@ -429,4 +436,10 @@
   width: 16px;
   height: 16px;
   object-fit: contain;
+}
+
+.footer__copyright {
+  margin: 60px 0 0;
+  font-size: 16px;
+  line-height: 20px;
 }
