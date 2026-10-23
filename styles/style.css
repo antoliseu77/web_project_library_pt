@@ -1,4 +1,3 @@
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -85,8 +84,6 @@
   margin: 0;
   color: #838383;
 }
-
-/* Escolhas da equipa */
 
 .staff {
   padding: 100px 0 140px;
@@ -195,16 +192,12 @@
   margin-top: 32px;
 }
 
-/* Classes exigidas pelo verificador */
-
-.event-info__item,
 .events__info-item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
 }
 
-.event-info__icon,
 .events__info-icon {
   flex-shrink: 0;
   width: 24px;
@@ -213,7 +206,6 @@
   object-fit: contain;
 }
 
-.event-info__text,
 .events__info-text {
   margin: 0;
   font-size: 20px;
@@ -243,7 +235,7 @@
   max-width: 100%;
 }
 
-/* Pessoas — estilos ativos, sem comentários a bloquear o CSS */
+/* Pessoas */
 
 .person {
   position: absolute;
