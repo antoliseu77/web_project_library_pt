@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -78,12 +79,16 @@
   line-height: 1.5;
 }
 
+/* Imagem do cabeçalho ativada e com largura definida */
+
 .header__image {
-  width: 45%;
-  max-width: 600px;
-  height: auto;
+  display: block;
+  width: 636px;
+  height: 568px;
   object-fit: contain;
 }
+
+/* Mantém os estilos do header__footer separados */
 
 .header__footer {
   display: flex;
@@ -130,9 +135,7 @@
   padding: 30px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -201,22 +204,20 @@
   margin-bottom: 30px;
 }
 
-/* Classes solicitadas pelo avaliador */
-
-.event-info__item {
+.events__info-item {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.event-info__icon {
+.events__info-icon {
   flex-shrink: 0;
   width: 20px;
   height: 20px;
   object-fit: contain;
 }
 
-.event-info__text {
+.events__info-text {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
@@ -253,7 +254,7 @@
   border-radius: 4px;
 }
 
-/* Pessoas: estilos ativos, sem comentários a desativá-los */
+/* Pessoas: estilos descomentados */
 
 .person {
   position: absolute;
