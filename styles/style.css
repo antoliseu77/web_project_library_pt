@@ -69,10 +69,8 @@
 }
 
 .header__image {
-  display: block;
   width: 636px;
-  height: 568px;
-  object-fit: contain;
+  max-width: 100%;
 }
 
 .header__footer {
