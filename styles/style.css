@@ -80,10 +80,7 @@
 }
 
 .header__image {
-  display: block;
-  width: 636px;
-  height: 568px;
-  object-fit: contain;
+  max-width: 636px;
 }
 
 .header__footer {
