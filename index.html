@@ -4,33 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Triple Peaks</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
         <nav class="nav">
           <img
             src="./images/logo.svg"
-            alt="Logótipo da Biblioteca Triple Peaks"
+            alt="Logo da Biblioteca Triple Peaks"
             class="nav__logo"
           />
-
           <ul class="nav__links">
             <li>
-              <a href="#staff" class="nav__link">Escolhas da equipa</a>
+              <a class="nav__link" href="#staff">Escolhas da Equipe</a>
             </li>
             <li>
-              <a href="#events" class="nav__link">Eventos</a>
+              <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
-              <a href="#membership" class="nav__link">Seja um membro</a>
+              <a class="nav__link" href="#membership">Seja um membro</a>
             </li>
             <li>
-              <a href="#footer" class="nav__link">Contactos</a>
+              <a class="nav__link" href="#footer">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -38,80 +36,104 @@
         <div class="header__content">
           <div class="header__text">
             <h1 class="header__title">
-              Bem-vindo à Biblioteca Triple Peaks!
+              Bem-vindo à Biblioteca Triple Peaks
             </h1>
-
             <p class="header__description">
-              Somos uma biblioteca moderna, dedicada à leitura, ao
-              conhecimento e à criatividade. Aqui, cada página é uma
-              oportunidade para descobrir algo novo.
+              Temos o prazer de abrir as portas da nossa biblioteca a todos!
+              Venha expandir seus conhecimentos de desenvolvimento, ou apenas
+              use esse belo local para trabalhar ou estudar. Esse é um lugar
+              legal para estudantes legais!
             </p>
           </div>
-
           <img
             src="./images/inside_the_library.png"
-            alt="Interior da biblioteca"
+            alt="Ilustração 'Dentro da biblioteca'"
             class="header__image"
           />
         </div>
 
         <div class="header__footer">
           <p class="header__address">
-            Avenida do Conhecimento, 123 · Luanda
+            Triple Peaks, 200 Success Avenue
           </p>
         </div>
       </header>
 
       <main class="content">
         <section class="staff" id="staff">
-          <h2 class="staff__title">Escolhas da equipa</h2>
-
-          <p class="staff__subtitle">
-            Descubra as nossas recomendações de leitura.
-          </p>
+          <h2 class="staff__title">Escolhas da Equipe</h2>
+          <p class="staff__subtitle">Que nossos leitores adoram</p>
 
           <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">A Arte de Programar</h3>
+                <h3 class="card__title">
+                  Algoritmos: Teoria e Prática
+                </h3>
                 <p class="card__text">
-                  Descubra como a programação transforma ideias em soluções
-                  e permite criar projetos úteis para o mundo.
+                  Esse livro é uma introdução adequada aos algoritmos!
+                  Introdução aos algoritmos, ou CLRS, em referência aos
+                  sobrenomes dos autores, aprofunda e abrange uma variedade
+                  de algoritmos em vários capítulos independentes.
                 </p>
-                <p class="card__footer">Tecnologia e inovação</p>
+                <p class="card__footer">
+                  Thomas H. Cormen, Charles E. Leiserson,
+                  Ronald L. Rivest, Clifford Stein
+                </p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">O Poder da Leitura</h3>
+                <h3 class="card__title">
+                  A Estrutura e Interpretação de Programas de
+                  Computador (SICP, na sigla em inglês)
+                </h3>
                 <p class="card__text">
-                  A leitura estimula a imaginação, amplia o vocabulário
-                  e ajuda-nos a compreender melhor o mundo.
+                  Esse é um dos melhores livros para aprender os fundamentos
+                  da programação. Destacado pelo MIT em um de seus cursos
+                  fundamentais de programação, SICP é um livro de programação
+                  de uso geral que utiliza Scheme para ilustrar diversos
+                  conceitos de programação.
                 </p>
-                <p class="card__footer">Leitura e conhecimento</p>
+                <p class="card__footer">
+                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
+                </p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Pensar Melhor</h3>
+                <h3 class="card__title">
+                  O Codificador Limpo: Um Código de Conduta
+                  para Programadores Profissionais
+                </h3>
                 <p class="card__text">
-                  Desenvolva o pensamento crítico, faça perguntas e aprenda
-                  a analisar diferentes perspetivas.
+                  Compilado pelo experiente desenvolvedor de software e autor
+                  Robert C. Martin (também conhecido como Tio Bob), esse livro
+                  aborda as técnicas e ferramentas da verdadeira capacidade
+                  do software. Explica como escrever um código limpo e
+                  demonstrar como cultivar a atitude de um programador
+                  competente e profissional.
                 </p>
-                <p class="card__footer">Aprendizagem</p>
+                <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Criatividade e Inovação</h3>
+                <h3 class="card__title">
+                  Code Complete: Um Manual Prático de Construção de Software
+                </h3>
                 <p class="card__text">
-                  Explore novas ideias e descubra maneiras criativas
-                  de resolver problemas do dia a dia.
+                  Quer saber como escrever um código robusto,
+                  independentemente da arquitetura por trás da linguagem de
+                  programação escolhida? Em seguida, considere a leitura
+                  do livro: Code Complete: Um Manual Prático de Construção
+                  de Software. Ele aborda de forma abrangente tudo
+                  relacionado à boa estrutura de código.
                 </p>
-                <p class="card__footer">Criatividade</p>
+                <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
           </ul>
@@ -120,30 +142,29 @@
         <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
-
             <h3 class="events__title">
               Uma noite de leitura e partilha
             </h3>
 
-            <div class="events__info-section">
-              <div class="events__info-item">
+            <div class="event-info">
+              <div class="event-info__item">
                 <img
                   src="./images/icon_calendar.svg"
                   alt=""
-                  class="events__info-icon"
+                  class="event-info__icon"
                 />
-                <p class="events__info-text">
+                <p class="event-info__text">
                   12 de março, às 19h
                 </p>
               </div>
 
-              <div class="events__info-item">
+              <div class="event-info__item">
                 <img
                   src="./images/icon_pin.svg"
                   alt=""
-                  class="events__info-icon"
+                  class="event-info__icon"
                 />
-                <p class="events__info-text">
+                <p class="event-info__text">
                   Biblioteca Triple Peaks
                 </p>
               </div>
@@ -215,59 +236,76 @@
         </section>
 
         <section class="membership" id="membership">
-          <h2 class="membership__title">Seja um membro</h2>
+          <h2 class="membership__title">
+            Ser membro da biblioteca é fácil
+          </h2>
 
-          <p class="membership__description">
-            Torne-se membro da nossa biblioteca e faça parte de uma
-            comunidade dedicada à leitura e à aprendizagem.
-          </p>
-
-          <div class="membership__steps">
-            <div class="step">
-              <h3 class="step__title">Passo 1</h3>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Passo 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="Ícone de avançar"
+                  class="step__icon"
+                />
+              </h3>
               <p class="step__description">
-                Preencha o formulário de inscrição.
+                Preencha o formulário de filiação online.
               </p>
-              <img
-                src="./images/icon_step_forward.svg"
-                alt=""
-                class="step__icon"
-              />
-            </div>
+            </li>
 
-            <div class="step">
-              <h3 class="step__title">Passo 2</h3>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="Ícone de avançar"
+                  class="step__icon"
+                />
+              </h3>
               <p class="step__description">
-                Aguarde a confirmação dos seus dados.
+                Venha retirar seu cartão da biblioteca na recepção.
               </p>
-              <img
-                src="./images/icon_step_forward.svg"
-                alt=""
-                class="step__icon"
-              />
-            </div>
+            </li>
 
-            <div class="step">
-              <h3 class="step__title">Passo 3</h3>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="Ícone de avançar"
+                  class="step__icon"
+                />
+              </h3>
               <p class="step__description">
-                Comece a aproveitar os benefícios da biblioteca.
+                Assine o verso do cartão.
               </p>
-              <img
-                src="./images/icon_step_finish.svg"
-                alt=""
-                class="step__icon"
-              />
-            </div>
-          </div>
+            </li>
+
+            <li class="step">
+              <h3 class="step__title">
+                Passo 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="Ícone de conclusão"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Aproveite todos os incríveis benefícios de ser membro!
+              </p>
+            </li>
+          </ul>
         </section>
       </main>
 
       <footer class="footer" id="footer">
         <div class="footer__columns">
-          <div class="footer__column footer__column_content_logo">
+          <div class="footer__column">
             <img
               src="./images/logo_white.svg"
-              alt="Logótipo da Biblioteca Triple Peaks"
+              alt="Logotipo da Biblioteca Triple Peaks"
               class="footer__logo"
             />
           </div>
@@ -276,7 +314,6 @@
             <h3 class="footer__column-heading">
               Horário de Funcionamento
             </h3>
-
             <ul class="footer__list">
               <li class="footer__list-item">
                 Dias úteis: 9h - 20h
@@ -289,7 +326,6 @@
 
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Redes Sociais</h3>
-
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__column-link">
@@ -301,7 +337,6 @@
                   Facebook
                 </a>
               </li>
-
               <li class="footer__list-item">
                 <a href="#" class="footer__column-link">
                   <img
