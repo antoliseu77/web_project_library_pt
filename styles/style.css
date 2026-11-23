@@ -251,19 +251,19 @@
 .person_name_feynman {
   top: -30px;
   left: 319px;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .person_name_burbidge {
   top: 96px;
   right: 125px;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .person_name_mitchell {
